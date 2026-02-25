@@ -1,0 +1,7 @@
+model,mitigated_gaps
+No Protection,None / Minimal
+Legacy API Key,None / Minimal
+IP Whitelist,"Session Hijacking, Token Passthrough, Local MCP Server Compromise"
+RBAC + Sandbox,"Prompt Injection, Tool Poisoning, Confused Deputy, Token Passthrough, SSRF, Local MCP Server Compromise"
+ABAC,"Prompt Injection, Confused Deputy, Token Passthrough, SSRF, Local MCP Server Compromise"
+CAAC,"Prompt Injection, Tool Poisoning, Session Hijacking, Confused Deputy, Token Passthrough, SSRF, Local MCP Server Compromise"

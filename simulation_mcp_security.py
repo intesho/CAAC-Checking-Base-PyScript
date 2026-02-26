@@ -1,12 +1,3 @@
-﻿
-#!/usr/bin/env python3
-"""Research-grade MCP security simulation framework.
-
-This script simulates MCP-like tool invocation traffic under six access-control
-models and compares security/performance tradeoffs across legitimate and attack
-requests. It is designed for reproducible academic experiments and supports
-external dataset replacement through CSV hooks.
-"""
 
 from __future__ import annotations
 

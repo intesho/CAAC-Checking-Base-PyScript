@@ -1,7 +1,0 @@
-model,avg_response_ms,security_overhead_ms,false_positive_rate,false_positive_count,overall_attack_success_rate,attack_success::Prompt Injection,attack_success::Tool Poisoning,attack_success::Session Hijacking,attack_success::Confused Deputy,attack_success::Token Passthrough,attack_success::SSRF,attack_success::Local MCP Server Compromise
-No Protection,40.941,0.0,0.0,0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-Legacy API Key,42.924,1.982,0.04953,138,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-IP Whitelist,23.971,-16.971,0.47057,1311,0.28995,0.52427,0.52113,0.0,0.525,0.0,0.55844,0.0
-RBAC + Sandbox,34.151,-6.79,0.03984,111,0.17051,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ABAC,31.004,-9.937,0.25377,707,0.23641,0.0,0.84507,0.80676,0.0,0.0,0.0,0.0
-CAAC,28.928,-12.014,0.38083,1061,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
